@@ -61,6 +61,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DecoratorTests.cs" />
     <Compile Include="ObserverTests.cs" />
     <Compile Include="SingletonTests.cs" />
     <Compile Include="StrategyTests.cs" />
@@ -70,6 +71,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Patterns.Decorator\Patterns.Decorator.csproj">
+      <Project>{E4FAAFD7-101F-49DC-A090-0FE3C0F3E8DB}</Project>
+      <Name>Patterns.Decorator</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Patterns.Observer\Patterns.Observer.csproj">
       <Project>{2F5F6FE4-35B8-48C4-84E5-F917EF471C4C}</Project>
       <Name>Patterns.Observer</Name>
