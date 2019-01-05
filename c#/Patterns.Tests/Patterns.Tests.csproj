@@ -61,6 +61,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractFactoryTests.cs" />
     <Compile Include="DecoratorTests.cs" />
     <Compile Include="FactoryMethodTests.cs" />
     <Compile Include="ObserverTests.cs" />
@@ -72,6 +73,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Patterns.AbstractFactory\Patterns.AbstractFactory.csproj">
+      <Project>{03D85E60-7457-41A3-88CF-4F9508B565A1}</Project>
+      <Name>Patterns.AbstractFactory</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Patterns.Decorator\Patterns.Decorator.csproj">
       <Project>{E4FAAFD7-101F-49DC-A090-0FE3C0F3E8DB}</Project>
       <Name>Patterns.Decorator</Name>
